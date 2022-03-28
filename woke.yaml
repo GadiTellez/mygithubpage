@@ -13,19 +13,3 @@ rules:
     alternatives:
       - denylist
       - blocklist
-
-  - name: master
-    terms:
-      - master
-    alternatives:
-      - leader
-      - primary
-      - active
-
-  - name: slave
-    terms:
-      - slave
-    alternatives:
-      - follower
-      - secondary
-      - standby
