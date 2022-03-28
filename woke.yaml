@@ -15,17 +15,17 @@ rules:
       - blocklist
 
   - name: master
-      terms:
-        - master
-      alternatives:
-        - leader
-        - primary
-        - active
+    terms:
+      - master
+    alternatives:
+      - leader
+      - primary
+      - active
 
   - name: slave
-      terms:
-        - slave
-      alternatives:
-        - follower
-        - secondary
-        - standby
+    terms:
+      - slave
+    alternatives:
+      - follower
+      - secondary
+      - standby
