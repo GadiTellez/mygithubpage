@@ -29,3 +29,11 @@ rules:
       - follower
       - secondary
       - standby
+
+  - name: man-hours
+    terms:
+      - man hours
+      - man-hours
+    alternatives:
+      - person hours
+      - engineer hours
