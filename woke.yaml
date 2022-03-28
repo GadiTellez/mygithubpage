@@ -1,0 +1,15 @@
+rules:
+  - name: whitelist
+    terms:
+      - whitelist
+      - white-list
+    alternatives:
+      - allowlist
+
+  - name: blacklist
+    terms:
+      - blacklist
+      - black-list
+    alternatives:
+      - denylist
+      - blocklist
